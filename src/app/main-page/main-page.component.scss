@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-page {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.main-chat-window {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.chats {
+    padding: 20px;
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.chat-window {
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    background-color: rgb(233, 220, 204);
+    position: relative;
+}
+
+
+.search-bar {
+    width: 90%;
+    height: 6%;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 20px;
+    padding: 15px;
+    outline: none;
+    box-shadow: -3px 3px 5px gray;
+
+
+}
+
+.search-bar::placeholder {
+    font-size: 15px;
+
+}
+
+
+.chat-window-upper {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+
+.main-page {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(243, 5, 68);
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-feture-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+
+}
+
+
+.nav-bar>div {
+    width: 50px;
+    margin-left: 100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px rgb(137, 3, 3);
+
+}
+
+.profile {
+    margin-right: 100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+li {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px rgb(137, 3, 3);
+
+}
+
+
+.new-chat {
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    width: 700px;
+    margin-right: 0px;
+    height: 70%;
+    padding: 5px;
+    outline: none;
+    border: 0px;
+    margin-left: 30px;
+}
+
+.uploadicons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    border: 0px;
+    width: 5%;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+
+/* Mobile Styles (up to 767px) */
+@media only screen and (max-width: 767px) {}
+
+/* Tablet Styles (768px - 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+
+/* Desktop Styles (1024px and above) */
+@media only screen and (min-width: 1024px) {}

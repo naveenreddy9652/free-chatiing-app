@@ -1,0 +1,324 @@
+.parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(251, 140, 140);
+}
+
+
+form {
+    border-radius: 10px;
+    text-align: center;
+    height: 40%;
+    width: 30%;
+    background-color: rgb(218, 212, 212);
+    box-shadow: 5px 5px 10px gray;
+}
+
+h3 {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+form div {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.lock {
+    border: 2px solid rgb(180, 23, 23);
+    border-radius: 50%;
+    background-color: rgb(251, 140, 140);
+
+}
+
+input {
+    height: 39px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+}
+
+.person {
+    border: 2px solid rgb(180, 23, 23);
+    border-radius: 50%;
+    background-color: rgb(251, 140, 140);
+}
+
+.input1 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 20px;
+}
+
+.input2 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+button {
+    background-color: blue;
+    height: 35px;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+/* Mobile Styles (up to 767px) */
+@media only screen and (max-width: 767px) {
+    form {
+        border-radius: 10px;
+        text-align: center;
+        height: 42%;
+        width: 400px;
+        background-color: rgb(218, 212, 212);
+        box-shadow: 5px 5px 10px gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        color: red;
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    form div {
+        display: flex;
+        width: 80%;
+        height: 12%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 50px;
+        height: 13%;
+    }
+
+    .lock {
+        border: 2px solid rgb(180, 23, 23);
+        border-radius: 50%;
+        background-color: rgb(251, 140, 140);
+        width: 42px;
+        height: 100%;
+    }
+
+    input {
+        height: 100%;
+        box-sizing: border-box;
+        outline: none;
+        width: 90%;
+        padding-left: 20px;
+
+    }
+
+    .person {
+        border-radius: 50%;
+        background-color: rgb(251, 140, 140);
+        height: 100%;
+        width: 45px;
+    }
+
+    .input1 {
+        margin: 0px;
+    }
+
+
+
+    button {
+        background-color: blue;
+        height: 30px;
+        border: 0px;
+        border-radius: 3px;
+        color: white;
+        padding: 8px;
+        box-sizing: border-box;
+        font-weight: 600;
+    }
+
+}
+
+/* Tablet Styles (768px - 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .parent {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: rgb(251, 140, 140);
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        text-align: center;
+        height: 45%;
+        width: 500px;
+        background-color: rgb(218, 212, 212);
+        box-shadow: 5px 5px 10px gray;
+    }
+
+    h3 {
+        color: red;
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    form div {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 50px;
+        height: 12%;
+    }
+
+    .lock {
+        border: 2px solid rgb(180, 23, 23);
+        border-radius: 50%;
+        background-color: rgb(251, 140, 140);
+        height: 100%;
+        width: 45px;
+    }
+
+    input {
+        height: 100%;
+        box-sizing: border-box;
+        outline: none;
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .person {
+        border-radius: 50%;
+        background-color: rgb(251, 140, 140);
+        height: 100%;
+        width: 45px;
+    }
+
+    .input1 {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin: 0px;
+    }
+
+    .input2 {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+
+    }
+
+}
+
+/* Desktop Styles (1024px and above) */
+@media only screen and (min-width: 1024px) {
+    .parent {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: rgb(251, 140, 140);
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        text-align: center;
+        height: 55%;
+        width: 600px;
+        background-color: rgb(218, 212, 212);
+        box-shadow: 5px 5px 10px gray;
+    }
+
+    h3 {
+        color: red;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    form div {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 50px;
+        height: 11%;
+    }
+
+    .lock {
+        border: 2px solid rgb(180, 23, 23);
+        border-radius: 50%;
+        background-color: rgb(251, 140, 140);
+        height: 95%;
+        width: 50px;
+    }
+
+    input {
+        height: 39px;
+        box-sizing: border-box;
+        border: 0px;
+        outline: none;
+        width: 90%;
+    }
+
+    .person {
+        border: 2px solid rgb(180, 23, 23);
+        border-radius: 50%;
+        background-color: rgb(251, 140, 140);
+        height: 95%;
+        width: 50px;
+    }
+
+    .input1 {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-left: 20px;
+    }
+
+    .input2 {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-left: 20px;
+
+    }
+
+    button {
+        height: 10%;
+        width: 90px;
+        font-size: 15px;
+    }
+}
