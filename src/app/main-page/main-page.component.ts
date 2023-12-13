@@ -14,6 +14,13 @@ export class MainPageComponent {
   public chatHistory:any = [];
   public userNewChat:string = '';
 
+  public updateChat: any = {
+    userId: "angular2",
+        password: "9652926869",
+        idPassword: "",
+        userChat: this.chatHistory
+  }
+
   constructor(private _uplodChat: UploadChatService) {
     _uplodChat.getChatHystiry().subscribe(
       (data: any) => {
@@ -33,15 +40,15 @@ export class MainPageComponent {
 
  postChat(){
    this.chatHistory.push(this.userNewChat)
-  //  console.log(this.chatHistory)
-  //  this._uplodChat.updateChatHistory(this.chatHistory,this.id).subscribe(
-  //   (data:any)=>{
+   console.log(this.updateChat)
+   this._uplodChat.updateChatHistory(this.updateChat,this.id).subscribe(
+    (data:any)=>{
 
-  //   },
-  //   (err:any)=>{
-  //     alert(err)
-  //   }
-  //  )
+    },
+    (err:any)=>{
+      alert(err)
+    }
+   )
  }
 
 
