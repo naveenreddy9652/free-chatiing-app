@@ -49,6 +49,13 @@ input {
     outline: none;
 }
 
+input {
+    height: 39px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+}
+
 .person {
     border: 2px solid rgb(180, 23, 23);
     border-radius: 50%;
